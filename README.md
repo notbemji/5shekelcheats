@@ -18,3 +18,5 @@ any improvements, sources or features? pull request
  - NUMPAD 6 : Backtrack Chams
  - NUMPAD 1 : Anti-Headshot
  - NUMPAD 2 : Crosshair
+
+if you want to request a change in these: pull request with explanation
