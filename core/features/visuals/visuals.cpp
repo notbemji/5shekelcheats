@@ -4,7 +4,7 @@ RECT get_bbox(player_t* player) {
 	RECT box;
 	vec3_t bottom, top;
 
-	math::world_to_screen(player->origin() - vec3_t(0, 0, 8), bottom);
+	math::world_to_screen(player->abs_origin() - vec3_t(0, 0, 8), bottom); // vecorigin to absorigin for no lag in esp
 	math::world_to_screen(player->get_hitbox_position(hitboxes::hitbox_head) + vec3_t(0, 0, 8), top);
 
 	int mid = bottom.y - top.y;
